@@ -50,7 +50,7 @@ function FoundsDetail() {
                 setReviews(reviewsParaEsteSitio);
                 setDejoReview(false);
             } catch (error) {
-                console.error('Error en la solicitud:', error);
+                console.error('Error al enviar la solicitud a la api:', error);
             }
         };
 
