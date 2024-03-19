@@ -30,7 +30,7 @@ function AddReview(props) {
             const result = await response.json();
             console.log(result.data);
             props.onChange(true);
-            alert('Review realizada');
+            alert('Review realizada con exito');
           } catch (error) {
             console.error('Hubo un error al enviar la información', error);
             alert('Error al enviar la información');
